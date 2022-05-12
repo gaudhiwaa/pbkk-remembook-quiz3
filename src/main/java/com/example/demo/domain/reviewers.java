@@ -15,7 +15,10 @@ public class reviewers {
     private String name;
     private String email;
 
-    @ManyToMany(mappedBy = "reviewers")
+    @ManyToMany
+    @JoinTable(name = "review_reviewers",
+            joinColumns = @JoinColumn(name = "reviewers_id"),
+            inverseJoinColumns = @JoinColumn(name = "review_id"))
     private Set<review> review = new HashSet<>();
 
     public reviewers() {

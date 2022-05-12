@@ -15,10 +15,7 @@ public class review {
     private String author;
     private String description;
 
-    @ManyToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "reviewers_review",
-            joinColumns = @JoinColumn(name = "review_id"),
-            inverseJoinColumns = @JoinColumn(name = "reviewers_id"))
+    @ManyToMany(mappedBy = "review")
     private Set<reviewers> reviewers = new HashSet<>();
 
     public review() {
