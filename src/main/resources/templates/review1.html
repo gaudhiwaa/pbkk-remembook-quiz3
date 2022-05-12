@@ -14,7 +14,7 @@
         <th>author</th>
         <th>description</th>
     </tr>
-    <tr th:each="review" : ${review}>
+    <tr th:each="review : ${review}">
         <td th:text="${review.id}">id</td>
         <td th:text="${review.title}">title</th>
         <td th:text="${review.author}">author</th>
