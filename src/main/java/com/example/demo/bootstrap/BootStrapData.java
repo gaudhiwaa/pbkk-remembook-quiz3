@@ -19,13 +19,13 @@ public class BootStrapData implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception{
-        reviewers me = new reviewers("Me", "me.com");
-        review me1 = new review("Meek book", "Meek", "Its good");
-
-        me.getReview().add(me1);
-        me1.getReviewers().add(me);
-
-        reviewRep.save(me1);
-        reviewersRep.save(me);
+//        reviewers me = new reviewers("Me", "me.com");
+//        review me1 = new review("Meek book", "Meek", "Its good");
+//
+//        me.getReview().add(me1);
+//        me1.getReviewers().add(me);
+//
+//        reviewRep.save(me1);
+//        reviewersRep.save(me);
     }
 }
