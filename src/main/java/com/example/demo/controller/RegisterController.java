@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 public class RegisterController {
     @RequestMapping("/register")
-    public String getRegister(Model model){
+    public String getRegister(){
         return "register";
     }
 }

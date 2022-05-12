@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class ReadingListController {
     @RequestMapping("/readingList")
-    public String getRegister(Model model){
+    public String getRegister(){
         return "readingList";
     }
 }
