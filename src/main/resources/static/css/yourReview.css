@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'raylig';
+    src: url('rayligregular-ezpn6-webfont.woff2') format('woff2'),
+         url('rayligregular-ezpn6-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: white;
+}
+
+.navbar {
+    font-size: medium;
+    font-style: bold;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    color: #000;
+    padding-top: 2em !important;
+    padding-bottom: 1.5em !important;
+    margin: 0;
+    background-color: white;
+}
+
+.navbar-nav {
+    margin-right: 4rem !important;
+}
+
+.nav-link {
+    color: #000;
+    margin-left: 50px;
+    font-size: 1.075em;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    -webkit-text-fill-color:#32456B; 
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    font-family: 'raylig';
+    color: black;
+    margin-left: 4rem !important;
+    font-size: 2rem !important;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.z-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#z-1border {
+    background-color: white;
+    width: 5rem;
+}
+
+#border-kiri {
+    width: 5rem;
+}
+
+#z-2content {
+    background-color: white;
+    flex: 2;
+}
+
+#z-subnav {
+    font-family: 'Montserrat';
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    background-color: #48DACF;
+}
+
+.z-subnav-button {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #48DACF;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    height: fit-content;
+}
+
+.selected-subnav {
+    background-color: #32456B;
+}
+
+.z-subnav-button:hover {
+    background-color: #32456B;
+}
+
+#reviewButton {
+    font-family: 'Montserrat';
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#addReviewButton {
+    color: white;
+    background-color: #37A3DF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: fit-content;
+    border-radius: 4px;
+}
+
+#addReviewButton:hover {
+    background-color: #283756;
+}
+
+#z-3border {
+    background-color:white;
+    width: 5rem;
+}
+
+#border-kanan {
+    width: 5rem;
+}
+
+.reviewContainer {
+    background-color: white;
+    min-height: 40vw;
+}
+
+.yourReview {
+    background-color: white;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.reviewHeader {
+    background-color: #32456B;
+    color:white;
+    font-family: 'raylig';
+    padding: 0.5em 1.5em;
+}
+
+.bookTitle {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    margin-bottom: 4px;
+}
+
+.bookAuthor {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3px;
+    font-size: 1.15em;
+}
+
+.reviewBody {
+    background-color: white;
+    padding: 1em 1.5em;
+    font-family: 'Montserrat';
+    font-size: medium;
+    line-height: 1.2;
+}
+
+.medsos {
+    padding: 0.75rem;
+    background-color: #32456B;
+}
+
+.btn-img {
+    width: auto;
+    height: 1.25em;
+}
+
+.copyright {
+    font-size: small;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    background-color: #283756;
+}
