@@ -27,7 +27,5 @@ public class BootStrapData implements CommandLineRunner {
 
         reviewRep.save(me1);
         reviewersRep.save(me);
-
-        System.out.println(reviewRep.count());
     }
 }
